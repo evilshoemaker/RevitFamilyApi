@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <!--
+  <AddIn Type="Command">
+    <Text>Family API 1 Table Load and Place</Text>
+    <Description>Load the table family and place table instances</Description>
+    <Assembly>FamilyApi.dll</Assembly>
+    <FullClassName>FamilyApi.CmdTableLoadPlace</FullClassName>
+    <ClientId>8fb8a52f-567d-4046-8461-ddd78a208b79</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Family API 2 Table Modify</Text>
+    <Description>Modify selected table family instances</Description>
+    <Assembly>FamilyApi.dll</Assembly>
+    <FullClassName>FamilyApi.CmdTableNewTypeModify</FullClassName>
+    <ClientId>47b84d16-aec4-4b24-bdac-03a419a1c301</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Family API 3 Kitchen Update</Text>
+    <Description>Select and update all kitchen cabinets</Description>
+    <Assembly>FamilyApi.dll</Assembly>
+    <FullClassName>FamilyApi.CmdKitchenUpdate</FullClassName>
+    <ClientId>9f4bac29-1df8-4218-9e0b-0d63c2166064</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  -->
+  <AddIn Type="Application">
+    <Name>Application FamilyApi</Name>
+    <Assembly>FamilyApi.dll</Assembly>
+    <FullClassName>FamilyApi.App</FullClassName>
+    <ClientId>baa99f02-6f5e-4f1a-a7bd-6ca8f1235330</ClientId>
+    <VendorId>DIGIOS_</VendorId>
+    <VendorDescription>DIGIOS HomeSt</VendorDescription>
+  </AddIn>
+</RevitAddIns>
